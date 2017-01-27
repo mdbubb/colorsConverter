@@ -22,7 +22,7 @@ public class hex {
             int a;
             a = hi;
             Scanner input = new Scanner(System.in);
-            System.out.println("Enter your " + color1 + " value");
+            System.out.println("Enter your " + color1 + " value...The Hex values will appear right after each one is entered");
             hi = input.nextInt();
             if (hi > 0 && hi <= 255) {
                 int goesInto = hi / 16;
@@ -77,4 +77,5 @@ public class hex {
     public static int hi;
     public static String color1;
     public static int j;
+    public static String s;
 }
