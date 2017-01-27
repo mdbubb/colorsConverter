@@ -57,6 +57,7 @@ public class CommonName {
                     if(code.equalsIgnoreCase(hexCodes[i])){
                         System.out.println("Your common HTML name is " + Commonnames[i]);
                     }
+                    //Hi Mr. P
                 }
             }
 }
