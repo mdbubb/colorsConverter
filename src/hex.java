@@ -19,8 +19,8 @@ public class hex {
                 color1 = "Blue";
             }
 
-            int a;
-            a = hi;
+            int q;
+            q= hi;
             Scanner input = new Scanner(System.in);
             System.out.println("Enter your " + color1 + " value...The Hex values will appear right after each one is entered");
             hi = input.nextInt();
@@ -32,7 +32,7 @@ public class hex {
                 if (goesInto < 10) {
                     for (int j = 0; j < 10; j++) {
                         if (goesInto == j) {
-                            System.out.println(j);
+                            System.out.print(j);
                             h.nextMethod();
 
                         }
@@ -42,27 +42,27 @@ public class hex {
 
 
                 if (goesInto == 10) {
-                    System.out.println("A");
+                    System.out.print("A");
                     h.nextMethod();
 
                 } else if (goesInto == 11) {
-                    System.out.println("B");
+                    System.out.print("B");
                     h.nextMethod();
 
                 } else if (goesInto == 12) {
-                    System.out.println("C");
+                    System.out.print("C");
                     h.nextMethod();
 
                 } else if (goesInto == 13) {
-                    System.out.println("D");
+                    System.out.print("D");
                     h.nextMethod();
 
                 } else if (goesInto == 14) {
-                    System.out.println("E");
+                    System.out.print("E");
                     h.nextMethod();
 
                 } else if (goesInto == 15) {
-                    System.out.println("F");
+                    System.out.print("F");
                     h.nextMethod();
 
                 }

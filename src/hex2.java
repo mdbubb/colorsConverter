@@ -33,4 +33,5 @@ public class hex2 {
         }
     return "Hi";
     }
+    public static String j;
 }

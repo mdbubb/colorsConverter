@@ -41,11 +41,15 @@ public class CommonName {
             "FFF5EE" ,"FFF8DC" ,"FFFACD" ,"FFFAF0" ,"FFFAFA" ,"FFFF00" ,"FFFFE0" ,"FFFFF0" ,"FFFFFF" };
 
             public void nextMethod(String name){
+                hex c = new hex();
                 for(int i=0; i<Commonnames.length; i++){
                     if(name.equalsIgnoreCase(Commonnames[i])){
                         System.out.println("Your hex code is " + hexCodes[i]);
 
                     }
+                    String one = hexCodes[i].substring(0,2);
+                    String two = hexCodes[i].substring(2,4);
+                    String three = hexCodes[i].substring(4,6);
                 }
             }
             public void almostDone(String code){
